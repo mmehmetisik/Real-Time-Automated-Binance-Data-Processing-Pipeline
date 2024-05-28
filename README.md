@@ -1,5 +1,9 @@
 # Real-Time Automated Binance Data Processing Pipeline
 
+## Architecture Diagram
+![image](https://github.com/mmehmetisik/Real-Time-Automated-Binance-Data-Processing-Pipeline/assets/64706956/fe4d24c5-99c2-4abd-aae9-81334cad10d4)
+
+
 ## Project Overview
 The aim of this project is to fetch real-time data from the Binance API, process and store it using AWS infrastructure. This project ensures efficient collection, processing, and storage of high-volume data. The process creates an automated and scalable data pipeline using AWS services.
 
@@ -73,9 +77,6 @@ The system architecture is designed to demonstrate real-time data handling using
 15. Add an SQS trigger to the second Lambda Function.
 16. Create a table in DynamoDB.
 17. Use NoSQL Workbench to connect to the DynamoDB table and verify if the data is correctly inserted.
-
-## Architecture Diagram
-![Project Architecture](image.png)
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
